@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CAD54828-FC68-4A63-ACE8-69B1E5EC8D10}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Latihan_Menu.My.MyApplication</StartupObject>
+    <RootNamespace>Latihan_Menu</RootNamespace>
+    <AssemblyName>Latihan Menu</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Latihan Menu.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Latihan Menu.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComboBoxApp.Designer.vb">
+      <DependentUpon>ComboBoxApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemilihPizza.Designer.vb">
+      <DependentUpon>MemilihPizza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MemilihPizza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenampilkanGambar.Designer.vb">
+      <DependentUpon>MenampilkanGambar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenampilkanGambar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MengenalMethode.Designer.vb">
+      <DependentUpon>MengenalMethode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MengenalMethode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MengenalScope.Designer.vb">
+      <DependentUpon>MengenalScope.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MengenalScope.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moduls\ScopeVar.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PemilihanBuku.Designer.vb">
+      <DependentUpon>PemilihanBuku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PemilihanBuku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PenghitungHuruf.Designer.vb">
+      <DependentUpon>PenghitungHuruf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PenghitungHuruf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penjumlahan.Designer.vb">
+      <DependentUpon>Penjumlahan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Penjumlahan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpanTeks.Designer.vb">
+      <DependentUpon>SimpanTeks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SimpanTeks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimerApp.Designer.vb">
+      <DependentUpon>TimerApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimerApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboBoxApp.resx">
+      <DependentUpon>ComboBoxApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemilihPizza.resx">
+      <DependentUpon>MemilihPizza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenampilkanGambar.resx">
+      <DependentUpon>MenampilkanGambar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MengenalMethode.resx">
+      <DependentUpon>MengenalMethode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MengenalScope.resx">
+      <DependentUpon>MengenalScope.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PemilihanBuku.resx">
+      <DependentUpon>PemilihanBuku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PenghitungHuruf.resx">
+      <DependentUpon>PenghitungHuruf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjumlahan.resx">
+      <DependentUpon>Penjumlahan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpanTeks.resx">
+      <DependentUpon>SimpanTeks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimerApp.resx">
+      <DependentUpon>TimerApp.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\img\baju.jpg" />
+    <Content Include="Assets\img\California.JPG" />
+    <Content Include="Assets\img\Chichago.JPG" />
+    <Content Include="Assets\img\Greek.JPG" />
+    <Content Include="Assets\img\Kebab.JPG" />
+    <Content Include="Assets\img\Kelzone.JPG" />
+    <Content Include="Assets\img\Neapolitan.JPG" />
+    <Content Include="Assets\img\NewYork.JPG" />
+    <Content Include="Assets\img\Pizzaldire.JPG" />
+    <Content Include="Assets\img\Sicilian.JPG" />
+    <Content Include="Assets\img\Tomatto.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

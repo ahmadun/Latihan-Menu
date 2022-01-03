@@ -5,7 +5,10 @@
         Lb_fc.Text = "kepo"
         Lb_ins.Text = "kepo"
 
-        Pc_foto.Image = Image.FromFile("D:\Latihan Menu\Latihan Menu\Assets\img\baju.jpg")
+
+        Dim paths As String
+        paths = "..\..\Assets\img\"
+        Pc_foto.Image = Image.FromFile(System.IO.Path.Combine(paths + "baju.JPG"))
     End Sub
 
     Private Sub Pc_foto_Click(sender As Object, e As EventArgs) Handles Pc_foto.Click

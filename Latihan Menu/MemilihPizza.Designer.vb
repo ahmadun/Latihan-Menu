@@ -25,87 +25,87 @@ Partial Class MemilihPizza
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Pc_nea = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Pn_1 = New System.Windows.Forms.Panel()
-        Me.Pn_2 = New System.Windows.Forms.Panel()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Pn_3 = New System.Windows.Forms.Panel()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Pn_4 = New System.Windows.Forms.Panel()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Pn_5 = New System.Windows.Forms.Panel()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Pn_6 = New System.Windows.Forms.Panel()
-        Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Pn_7 = New System.Windows.Forms.Panel()
-        Me.Panel14 = New System.Windows.Forms.Panel()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Pn_8 = New System.Windows.Forms.Panel()
-        Me.Panel16 = New System.Windows.Forms.Panel()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Pn_9 = New System.Windows.Forms.Panel()
-        Me.Panel18 = New System.Windows.Forms.Panel()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.Pn_10 = New System.Windows.Forms.Panel()
+        Me.Pc_tom = New System.Windows.Forms.PictureBox()
         Me.Panel20 = New System.Windows.Forms.Panel()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.Pc_calz = New System.Windows.Forms.PictureBox()
-        Me.Pc_ch = New System.Windows.Forms.PictureBox()
-        Me.Pc_gre = New System.Windows.Forms.PictureBox()
-        Me.Pc_new = New System.Windows.Forms.PictureBox()
-        Me.Pc_kebab = New System.Windows.Forms.PictureBox()
-        Me.Pc_sic = New System.Windows.Forms.PictureBox()
-        Me.Pc_cali = New System.Windows.Forms.PictureBox()
-        Me.Pc_tom = New System.Windows.Forms.PictureBox()
+        Me.Pn_9 = New System.Windows.Forms.Panel()
         Me.Pc_piss = New System.Windows.Forms.PictureBox()
+        Me.Panel18 = New System.Windows.Forms.Panel()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Pn_8 = New System.Windows.Forms.Panel()
+        Me.Pc_cali = New System.Windows.Forms.PictureBox()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Pn_7 = New System.Windows.Forms.Panel()
+        Me.Pc_sic = New System.Windows.Forms.PictureBox()
+        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Pn_6 = New System.Windows.Forms.Panel()
+        Me.Pc_kebab = New System.Windows.Forms.PictureBox()
+        Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Pn_5 = New System.Windows.Forms.Panel()
+        Me.Pc_new = New System.Windows.Forms.PictureBox()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Pn_4 = New System.Windows.Forms.Panel()
+        Me.Pc_gre = New System.Windows.Forms.PictureBox()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Pn_3 = New System.Windows.Forms.Panel()
+        Me.Pc_ch = New System.Windows.Forms.PictureBox()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Pn_2 = New System.Windows.Forms.Panel()
+        Me.Pc_calz = New System.Windows.Forms.PictureBox()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Pn_1 = New System.Windows.Forms.Panel()
+        Me.Pc_nea = New System.Windows.Forms.PictureBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Pc_selected = New System.Windows.Forms.PictureBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Lb_selected = New System.Windows.Forms.Label()
-        Me.Pc_selected = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.Pc_nea, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        Me.Pn_1.SuspendLayout()
-        Me.Pn_2.SuspendLayout()
-        Me.Panel4.SuspendLayout()
-        Me.Pn_3.SuspendLayout()
-        Me.Panel6.SuspendLayout()
-        Me.Pn_4.SuspendLayout()
-        Me.Panel8.SuspendLayout()
-        Me.Pn_5.SuspendLayout()
-        Me.Panel10.SuspendLayout()
-        Me.Pn_6.SuspendLayout()
-        Me.Panel12.SuspendLayout()
-        Me.Pn_7.SuspendLayout()
-        Me.Panel14.SuspendLayout()
-        Me.Pn_8.SuspendLayout()
-        Me.Panel16.SuspendLayout()
-        Me.Pn_9.SuspendLayout()
-        Me.Panel18.SuspendLayout()
         Me.Pn_10.SuspendLayout()
-        Me.Panel20.SuspendLayout()
-        CType(Me.Pc_calz, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Pc_ch, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Pc_gre, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Pc_new, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Pc_kebab, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Pc_sic, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Pc_cali, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Pc_tom, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel20.SuspendLayout()
+        Me.Pn_9.SuspendLayout()
         CType(Me.Pc_piss, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel18.SuspendLayout()
+        Me.Pn_8.SuspendLayout()
+        CType(Me.Pc_cali, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel16.SuspendLayout()
+        Me.Pn_7.SuspendLayout()
+        CType(Me.Pc_sic, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel14.SuspendLayout()
+        Me.Pn_6.SuspendLayout()
+        CType(Me.Pc_kebab, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel12.SuspendLayout()
+        Me.Pn_5.SuspendLayout()
+        CType(Me.Pc_new, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel10.SuspendLayout()
+        Me.Pn_4.SuspendLayout()
+        CType(Me.Pc_gre, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel8.SuspendLayout()
+        Me.Pn_3.SuspendLayout()
+        CType(Me.Pc_ch, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel6.SuspendLayout()
+        Me.Pn_2.SuspendLayout()
+        CType(Me.Pc_calz, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel4.SuspendLayout()
+        Me.Pn_1.SuspendLayout()
+        CType(Me.Pc_nea, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
-        Me.Panel3.SuspendLayout()
         CType(Me.Pc_selected, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -137,16 +137,6 @@ Partial Class MemilihPizza
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Jenis Pizza"
         '
-        'Pc_nea
-        '
-        Me.Pc_nea.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pc_nea.Location = New System.Drawing.Point(0, 24)
-        Me.Pc_nea.Name = "Pc_nea"
-        Me.Pc_nea.Size = New System.Drawing.Size(135, 90)
-        Me.Pc_nea.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Pc_nea.TabIndex = 0
-        Me.Pc_nea.TabStop = False
-        '
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.ColumnCount = 4
@@ -174,285 +164,6 @@ Partial Class MemilihPizza
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(567, 361)
         Me.TableLayoutPanel1.TabIndex = 0
         '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(135, 24)
-        Me.Panel2.TabIndex = 4
-        '
-        'Label2
-        '
-        Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label2.Location = New System.Drawing.Point(0, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(135, 24)
-        Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Neapolitan"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Pn_1
-        '
-        Me.Pn_1.Controls.Add(Me.Pc_nea)
-        Me.Pn_1.Controls.Add(Me.Panel2)
-        Me.Pn_1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_1.Location = New System.Drawing.Point(3, 3)
-        Me.Pn_1.Name = "Pn_1"
-        Me.Pn_1.Size = New System.Drawing.Size(135, 114)
-        Me.Pn_1.TabIndex = 5
-        '
-        'Pn_2
-        '
-        Me.Pn_2.Controls.Add(Me.Pc_calz)
-        Me.Pn_2.Controls.Add(Me.Panel4)
-        Me.Pn_2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_2.Location = New System.Drawing.Point(144, 3)
-        Me.Pn_2.Name = "Pn_2"
-        Me.Pn_2.Size = New System.Drawing.Size(135, 114)
-        Me.Pn_2.TabIndex = 6
-        '
-        'Panel4
-        '
-        Me.Panel4.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Panel4.Controls.Add(Me.Label3)
-        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel4.Location = New System.Drawing.Point(0, 0)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(135, 24)
-        Me.Panel4.TabIndex = 4
-        '
-        'Label3
-        '
-        Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label3.Location = New System.Drawing.Point(0, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(135, 24)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Calzone"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Pn_3
-        '
-        Me.Pn_3.Controls.Add(Me.Pc_ch)
-        Me.Pn_3.Controls.Add(Me.Panel6)
-        Me.Pn_3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_3.Location = New System.Drawing.Point(285, 3)
-        Me.Pn_3.Name = "Pn_3"
-        Me.Pn_3.Size = New System.Drawing.Size(135, 114)
-        Me.Pn_3.TabIndex = 7
-        '
-        'Panel6
-        '
-        Me.Panel6.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Panel6.Controls.Add(Me.Label4)
-        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel6.Location = New System.Drawing.Point(0, 0)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(135, 24)
-        Me.Panel6.TabIndex = 4
-        '
-        'Label4
-        '
-        Me.Label4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label4.Location = New System.Drawing.Point(0, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(135, 24)
-        Me.Label4.TabIndex = 4
-        Me.Label4.Text = "Chicago-style"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Pn_4
-        '
-        Me.Pn_4.Controls.Add(Me.Pc_gre)
-        Me.Pn_4.Controls.Add(Me.Panel8)
-        Me.Pn_4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_4.Location = New System.Drawing.Point(426, 3)
-        Me.Pn_4.Name = "Pn_4"
-        Me.Pn_4.Size = New System.Drawing.Size(138, 114)
-        Me.Pn_4.TabIndex = 8
-        '
-        'Panel8
-        '
-        Me.Panel8.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Panel8.Controls.Add(Me.Label5)
-        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel8.Location = New System.Drawing.Point(0, 0)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(138, 24)
-        Me.Panel8.TabIndex = 4
-        '
-        'Label5
-        '
-        Me.Label5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label5.Location = New System.Drawing.Point(0, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(138, 24)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Greek Pizza"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Pn_5
-        '
-        Me.Pn_5.Controls.Add(Me.Pc_new)
-        Me.Pn_5.Controls.Add(Me.Panel10)
-        Me.Pn_5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_5.Location = New System.Drawing.Point(3, 123)
-        Me.Pn_5.Name = "Pn_5"
-        Me.Pn_5.Size = New System.Drawing.Size(135, 114)
-        Me.Pn_5.TabIndex = 9
-        '
-        'Panel10
-        '
-        Me.Panel10.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Panel10.Controls.Add(Me.Label6)
-        Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel10.Location = New System.Drawing.Point(0, 0)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(135, 24)
-        Me.Panel10.TabIndex = 4
-        '
-        'Label6
-        '
-        Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label6.Location = New System.Drawing.Point(0, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(135, 24)
-        Me.Label6.TabIndex = 4
-        Me.Label6.Text = "New York-style"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Pn_6
-        '
-        Me.Pn_6.Controls.Add(Me.Pc_kebab)
-        Me.Pn_6.Controls.Add(Me.Panel12)
-        Me.Pn_6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_6.Location = New System.Drawing.Point(144, 123)
-        Me.Pn_6.Name = "Pn_6"
-        Me.Pn_6.Size = New System.Drawing.Size(135, 114)
-        Me.Pn_6.TabIndex = 10
-        '
-        'Panel12
-        '
-        Me.Panel12.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Panel12.Controls.Add(Me.Label7)
-        Me.Panel12.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel12.Location = New System.Drawing.Point(0, 0)
-        Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(135, 24)
-        Me.Panel12.TabIndex = 4
-        '
-        'Label7
-        '
-        Me.Label7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label7.Location = New System.Drawing.Point(0, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(135, 24)
-        Me.Label7.TabIndex = 4
-        Me.Label7.Text = "Kebab Pizza"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Pn_7
-        '
-        Me.Pn_7.Controls.Add(Me.Pc_sic)
-        Me.Pn_7.Controls.Add(Me.Panel14)
-        Me.Pn_7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_7.Location = New System.Drawing.Point(285, 123)
-        Me.Pn_7.Name = "Pn_7"
-        Me.Pn_7.Size = New System.Drawing.Size(135, 114)
-        Me.Pn_7.TabIndex = 11
-        '
-        'Panel14
-        '
-        Me.Panel14.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Panel14.Controls.Add(Me.Label8)
-        Me.Panel14.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel14.Location = New System.Drawing.Point(0, 0)
-        Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(135, 24)
-        Me.Panel14.TabIndex = 4
-        '
-        'Label8
-        '
-        Me.Label8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label8.Location = New System.Drawing.Point(0, 0)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(135, 24)
-        Me.Label8.TabIndex = 4
-        Me.Label8.Text = "Sicilian"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Pn_8
-        '
-        Me.Pn_8.Controls.Add(Me.Pc_cali)
-        Me.Pn_8.Controls.Add(Me.Panel16)
-        Me.Pn_8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_8.Location = New System.Drawing.Point(426, 123)
-        Me.Pn_8.Name = "Pn_8"
-        Me.Pn_8.Size = New System.Drawing.Size(138, 114)
-        Me.Pn_8.TabIndex = 12
-        '
-        'Panel16
-        '
-        Me.Panel16.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Panel16.Controls.Add(Me.Label9)
-        Me.Panel16.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel16.Location = New System.Drawing.Point(0, 0)
-        Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(138, 24)
-        Me.Panel16.TabIndex = 4
-        '
-        'Label9
-        '
-        Me.Label9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label9.Location = New System.Drawing.Point(0, 0)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(138, 24)
-        Me.Label9.TabIndex = 4
-        Me.Label9.Text = "California-style"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Pn_9
-        '
-        Me.Pn_9.Controls.Add(Me.Pc_piss)
-        Me.Pn_9.Controls.Add(Me.Panel18)
-        Me.Pn_9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_9.Location = New System.Drawing.Point(3, 243)
-        Me.Pn_9.Name = "Pn_9"
-        Me.Pn_9.Size = New System.Drawing.Size(135, 115)
-        Me.Pn_9.TabIndex = 13
-        '
-        'Panel18
-        '
-        Me.Panel18.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Panel18.Controls.Add(Me.Label10)
-        Me.Panel18.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel18.Location = New System.Drawing.Point(0, 0)
-        Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(135, 24)
-        Me.Panel18.TabIndex = 4
-        '
-        'Label10
-        '
-        Me.Label10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label10.Location = New System.Drawing.Point(0, 0)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(135, 24)
-        Me.Label10.TabIndex = 4
-        Me.Label10.Text = "Pissaladière"
-        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'Pn_10
         '
         Me.Pn_10.Controls.Add(Me.Pc_tom)
@@ -462,6 +173,16 @@ Partial Class MemilihPizza
         Me.Pn_10.Name = "Pn_10"
         Me.Pn_10.Size = New System.Drawing.Size(135, 115)
         Me.Pn_10.TabIndex = 14
+        '
+        'Pc_tom
+        '
+        Me.Pc_tom.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pc_tom.Location = New System.Drawing.Point(0, 24)
+        Me.Pc_tom.Name = "Pc_tom"
+        Me.Pc_tom.Size = New System.Drawing.Size(135, 91)
+        Me.Pc_tom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Pc_tom.TabIndex = 9
+        Me.Pc_tom.TabStop = False
         '
         'Panel20
         '
@@ -484,65 +205,56 @@ Partial Class MemilihPizza
         Me.Label11.Text = "Tomato Pie"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Pc_calz
+        'Pn_9
         '
-        Me.Pc_calz.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pc_calz.Location = New System.Drawing.Point(0, 24)
-        Me.Pc_calz.Name = "Pc_calz"
-        Me.Pc_calz.Size = New System.Drawing.Size(135, 90)
-        Me.Pc_calz.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Pc_calz.TabIndex = 5
-        Me.Pc_calz.TabStop = False
+        Me.Pn_9.Controls.Add(Me.Pc_piss)
+        Me.Pn_9.Controls.Add(Me.Panel18)
+        Me.Pn_9.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_9.Location = New System.Drawing.Point(3, 243)
+        Me.Pn_9.Name = "Pn_9"
+        Me.Pn_9.Size = New System.Drawing.Size(135, 115)
+        Me.Pn_9.TabIndex = 13
         '
-        'Pc_ch
+        'Pc_piss
         '
-        Me.Pc_ch.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pc_ch.Location = New System.Drawing.Point(0, 24)
-        Me.Pc_ch.Name = "Pc_ch"
-        Me.Pc_ch.Size = New System.Drawing.Size(135, 90)
-        Me.Pc_ch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Pc_ch.TabIndex = 6
-        Me.Pc_ch.TabStop = False
+        Me.Pc_piss.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pc_piss.Location = New System.Drawing.Point(0, 24)
+        Me.Pc_piss.Name = "Pc_piss"
+        Me.Pc_piss.Size = New System.Drawing.Size(135, 91)
+        Me.Pc_piss.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Pc_piss.TabIndex = 9
+        Me.Pc_piss.TabStop = False
         '
-        'Pc_gre
+        'Panel18
         '
-        Me.Pc_gre.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pc_gre.Location = New System.Drawing.Point(0, 24)
-        Me.Pc_gre.Name = "Pc_gre"
-        Me.Pc_gre.Size = New System.Drawing.Size(138, 90)
-        Me.Pc_gre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Pc_gre.TabIndex = 7
-        Me.Pc_gre.TabStop = False
+        Me.Panel18.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel18.Controls.Add(Me.Label10)
+        Me.Panel18.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel18.Location = New System.Drawing.Point(0, 0)
+        Me.Panel18.Name = "Panel18"
+        Me.Panel18.Size = New System.Drawing.Size(135, 24)
+        Me.Panel18.TabIndex = 4
         '
-        'Pc_new
+        'Label10
         '
-        Me.Pc_new.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pc_new.Location = New System.Drawing.Point(0, 24)
-        Me.Pc_new.Name = "Pc_new"
-        Me.Pc_new.Size = New System.Drawing.Size(135, 90)
-        Me.Pc_new.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Pc_new.TabIndex = 8
-        Me.Pc_new.TabStop = False
+        Me.Label10.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label10.Location = New System.Drawing.Point(0, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(135, 24)
+        Me.Label10.TabIndex = 4
+        Me.Label10.Text = "Pissaladière"
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Pc_kebab
+        'Pn_8
         '
-        Me.Pc_kebab.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pc_kebab.Location = New System.Drawing.Point(0, 24)
-        Me.Pc_kebab.Name = "Pc_kebab"
-        Me.Pc_kebab.Size = New System.Drawing.Size(135, 90)
-        Me.Pc_kebab.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Pc_kebab.TabIndex = 9
-        Me.Pc_kebab.TabStop = False
-        '
-        'Pc_sic
-        '
-        Me.Pc_sic.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pc_sic.Location = New System.Drawing.Point(0, 24)
-        Me.Pc_sic.Name = "Pc_sic"
-        Me.Pc_sic.Size = New System.Drawing.Size(135, 90)
-        Me.Pc_sic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Pc_sic.TabIndex = 9
-        Me.Pc_sic.TabStop = False
+        Me.Pn_8.Controls.Add(Me.Pc_cali)
+        Me.Pn_8.Controls.Add(Me.Panel16)
+        Me.Pn_8.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_8.Location = New System.Drawing.Point(426, 123)
+        Me.Pn_8.Name = "Pn_8"
+        Me.Pn_8.Size = New System.Drawing.Size(138, 114)
+        Me.Pn_8.TabIndex = 12
         '
         'Pc_cali
         '
@@ -554,25 +266,313 @@ Partial Class MemilihPizza
         Me.Pc_cali.TabIndex = 9
         Me.Pc_cali.TabStop = False
         '
-        'Pc_tom
+        'Panel16
         '
-        Me.Pc_tom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pc_tom.Location = New System.Drawing.Point(0, 24)
-        Me.Pc_tom.Name = "Pc_tom"
-        Me.Pc_tom.Size = New System.Drawing.Size(135, 91)
-        Me.Pc_tom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Pc_tom.TabIndex = 9
-        Me.Pc_tom.TabStop = False
+        Me.Panel16.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel16.Controls.Add(Me.Label9)
+        Me.Panel16.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel16.Location = New System.Drawing.Point(0, 0)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(138, 24)
+        Me.Panel16.TabIndex = 4
         '
-        'Pc_piss
+        'Label9
         '
-        Me.Pc_piss.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pc_piss.Location = New System.Drawing.Point(0, 24)
-        Me.Pc_piss.Name = "Pc_piss"
-        Me.Pc_piss.Size = New System.Drawing.Size(135, 91)
-        Me.Pc_piss.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Pc_piss.TabIndex = 9
-        Me.Pc_piss.TabStop = False
+        Me.Label9.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label9.Location = New System.Drawing.Point(0, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(138, 24)
+        Me.Label9.TabIndex = 4
+        Me.Label9.Text = "California-style"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Pn_7
+        '
+        Me.Pn_7.Controls.Add(Me.Pc_sic)
+        Me.Pn_7.Controls.Add(Me.Panel14)
+        Me.Pn_7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_7.Location = New System.Drawing.Point(285, 123)
+        Me.Pn_7.Name = "Pn_7"
+        Me.Pn_7.Size = New System.Drawing.Size(135, 114)
+        Me.Pn_7.TabIndex = 11
+        '
+        'Pc_sic
+        '
+        Me.Pc_sic.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pc_sic.Location = New System.Drawing.Point(0, 24)
+        Me.Pc_sic.Name = "Pc_sic"
+        Me.Pc_sic.Size = New System.Drawing.Size(135, 90)
+        Me.Pc_sic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Pc_sic.TabIndex = 9
+        Me.Pc_sic.TabStop = False
+        '
+        'Panel14
+        '
+        Me.Panel14.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel14.Controls.Add(Me.Label8)
+        Me.Panel14.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel14.Location = New System.Drawing.Point(0, 0)
+        Me.Panel14.Name = "Panel14"
+        Me.Panel14.Size = New System.Drawing.Size(135, 24)
+        Me.Panel14.TabIndex = 4
+        '
+        'Label8
+        '
+        Me.Label8.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label8.Location = New System.Drawing.Point(0, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(135, 24)
+        Me.Label8.TabIndex = 4
+        Me.Label8.Text = "Sicilian"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Pn_6
+        '
+        Me.Pn_6.Controls.Add(Me.Pc_kebab)
+        Me.Pn_6.Controls.Add(Me.Panel12)
+        Me.Pn_6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_6.Location = New System.Drawing.Point(144, 123)
+        Me.Pn_6.Name = "Pn_6"
+        Me.Pn_6.Size = New System.Drawing.Size(135, 114)
+        Me.Pn_6.TabIndex = 10
+        '
+        'Pc_kebab
+        '
+        Me.Pc_kebab.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pc_kebab.Location = New System.Drawing.Point(0, 24)
+        Me.Pc_kebab.Name = "Pc_kebab"
+        Me.Pc_kebab.Size = New System.Drawing.Size(135, 90)
+        Me.Pc_kebab.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Pc_kebab.TabIndex = 9
+        Me.Pc_kebab.TabStop = False
+        '
+        'Panel12
+        '
+        Me.Panel12.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel12.Controls.Add(Me.Label7)
+        Me.Panel12.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel12.Location = New System.Drawing.Point(0, 0)
+        Me.Panel12.Name = "Panel12"
+        Me.Panel12.Size = New System.Drawing.Size(135, 24)
+        Me.Panel12.TabIndex = 4
+        '
+        'Label7
+        '
+        Me.Label7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label7.Location = New System.Drawing.Point(0, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(135, 24)
+        Me.Label7.TabIndex = 4
+        Me.Label7.Text = "Kebab Pizza"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Pn_5
+        '
+        Me.Pn_5.Controls.Add(Me.Pc_new)
+        Me.Pn_5.Controls.Add(Me.Panel10)
+        Me.Pn_5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_5.Location = New System.Drawing.Point(3, 123)
+        Me.Pn_5.Name = "Pn_5"
+        Me.Pn_5.Size = New System.Drawing.Size(135, 114)
+        Me.Pn_5.TabIndex = 9
+        '
+        'Pc_new
+        '
+        Me.Pc_new.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pc_new.Location = New System.Drawing.Point(0, 24)
+        Me.Pc_new.Name = "Pc_new"
+        Me.Pc_new.Size = New System.Drawing.Size(135, 90)
+        Me.Pc_new.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Pc_new.TabIndex = 8
+        Me.Pc_new.TabStop = False
+        '
+        'Panel10
+        '
+        Me.Panel10.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel10.Controls.Add(Me.Label6)
+        Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel10.Location = New System.Drawing.Point(0, 0)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(135, 24)
+        Me.Panel10.TabIndex = 4
+        '
+        'Label6
+        '
+        Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label6.Location = New System.Drawing.Point(0, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(135, 24)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "New York-style"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Pn_4
+        '
+        Me.Pn_4.Controls.Add(Me.Pc_gre)
+        Me.Pn_4.Controls.Add(Me.Panel8)
+        Me.Pn_4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_4.Location = New System.Drawing.Point(426, 3)
+        Me.Pn_4.Name = "Pn_4"
+        Me.Pn_4.Size = New System.Drawing.Size(138, 114)
+        Me.Pn_4.TabIndex = 8
+        '
+        'Pc_gre
+        '
+        Me.Pc_gre.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pc_gre.Location = New System.Drawing.Point(0, 24)
+        Me.Pc_gre.Name = "Pc_gre"
+        Me.Pc_gre.Size = New System.Drawing.Size(138, 90)
+        Me.Pc_gre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Pc_gre.TabIndex = 7
+        Me.Pc_gre.TabStop = False
+        '
+        'Panel8
+        '
+        Me.Panel8.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel8.Controls.Add(Me.Label5)
+        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel8.Location = New System.Drawing.Point(0, 0)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(138, 24)
+        Me.Panel8.TabIndex = 4
+        '
+        'Label5
+        '
+        Me.Label5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label5.Location = New System.Drawing.Point(0, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(138, 24)
+        Me.Label5.TabIndex = 4
+        Me.Label5.Text = "Greek Pizza"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Pn_3
+        '
+        Me.Pn_3.Controls.Add(Me.Pc_ch)
+        Me.Pn_3.Controls.Add(Me.Panel6)
+        Me.Pn_3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_3.Location = New System.Drawing.Point(285, 3)
+        Me.Pn_3.Name = "Pn_3"
+        Me.Pn_3.Size = New System.Drawing.Size(135, 114)
+        Me.Pn_3.TabIndex = 7
+        '
+        'Pc_ch
+        '
+        Me.Pc_ch.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pc_ch.Location = New System.Drawing.Point(0, 24)
+        Me.Pc_ch.Name = "Pc_ch"
+        Me.Pc_ch.Size = New System.Drawing.Size(135, 90)
+        Me.Pc_ch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Pc_ch.TabIndex = 6
+        Me.Pc_ch.TabStop = False
+        '
+        'Panel6
+        '
+        Me.Panel6.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel6.Controls.Add(Me.Label4)
+        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel6.Location = New System.Drawing.Point(0, 0)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(135, 24)
+        Me.Panel6.TabIndex = 4
+        '
+        'Label4
+        '
+        Me.Label4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label4.Location = New System.Drawing.Point(0, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(135, 24)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "Chicago-style"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Pn_2
+        '
+        Me.Pn_2.Controls.Add(Me.Pc_calz)
+        Me.Pn_2.Controls.Add(Me.Panel4)
+        Me.Pn_2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_2.Location = New System.Drawing.Point(144, 3)
+        Me.Pn_2.Name = "Pn_2"
+        Me.Pn_2.Size = New System.Drawing.Size(135, 114)
+        Me.Pn_2.TabIndex = 6
+        '
+        'Pc_calz
+        '
+        Me.Pc_calz.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pc_calz.Location = New System.Drawing.Point(0, 24)
+        Me.Pc_calz.Name = "Pc_calz"
+        Me.Pc_calz.Size = New System.Drawing.Size(135, 90)
+        Me.Pc_calz.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Pc_calz.TabIndex = 5
+        Me.Pc_calz.TabStop = False
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel4.Controls.Add(Me.Label3)
+        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel4.Location = New System.Drawing.Point(0, 0)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(135, 24)
+        Me.Panel4.TabIndex = 4
+        '
+        'Label3
+        '
+        Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label3.Location = New System.Drawing.Point(0, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(135, 24)
+        Me.Label3.TabIndex = 4
+        Me.Label3.Text = "Calzone"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Pn_1
+        '
+        Me.Pn_1.Controls.Add(Me.Pc_nea)
+        Me.Pn_1.Controls.Add(Me.Panel2)
+        Me.Pn_1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_1.Location = New System.Drawing.Point(3, 3)
+        Me.Pn_1.Name = "Pn_1"
+        Me.Pn_1.Size = New System.Drawing.Size(135, 114)
+        Me.Pn_1.TabIndex = 5
+        '
+        'Pc_nea
+        '
+        Me.Pc_nea.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pc_nea.Location = New System.Drawing.Point(0, 24)
+        Me.Pc_nea.Name = "Pc_nea"
+        Me.Pc_nea.Size = New System.Drawing.Size(135, 90)
+        Me.Pc_nea.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Pc_nea.TabIndex = 0
+        Me.Pc_nea.TabStop = False
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(135, 24)
+        Me.Panel2.TabIndex = 4
+        '
+        'Label2
+        '
+        Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label2.Location = New System.Drawing.Point(0, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(135, 24)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Neapolitan"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GroupBox2
         '
@@ -587,6 +587,16 @@ Partial Class MemilihPizza
         Me.GroupBox2.TabIndex = 4
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Selected Pizza"
+        '
+        'Pc_selected
+        '
+        Me.Pc_selected.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pc_selected.Location = New System.Drawing.Point(3, 16)
+        Me.Pc_selected.Name = "Pc_selected"
+        Me.Pc_selected.Size = New System.Drawing.Size(266, 320)
+        Me.Pc_selected.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Pc_selected.TabIndex = 6
+        Me.Pc_selected.TabStop = False
         '
         'Panel3
         '
@@ -609,16 +619,6 @@ Partial Class MemilihPizza
         Me.Lb_selected.TabIndex = 5
         Me.Lb_selected.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Pc_selected
-        '
-        Me.Pc_selected.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pc_selected.Location = New System.Drawing.Point(3, 16)
-        Me.Pc_selected.Name = "Pc_selected"
-        Me.Pc_selected.Size = New System.Drawing.Size(266, 320)
-        Me.Pc_selected.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Pc_selected.TabIndex = 6
-        Me.Pc_selected.TabStop = False
-        '
         'MemilihPizza
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -628,44 +628,45 @@ Partial Class MemilihPizza
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "MemilihPizza"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MemilihPizza"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
-        CType(Me.Pc_nea, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.Panel2.ResumeLayout(False)
-        Me.Pn_1.ResumeLayout(False)
-        Me.Pn_2.ResumeLayout(False)
-        Me.Panel4.ResumeLayout(False)
-        Me.Pn_3.ResumeLayout(False)
-        Me.Panel6.ResumeLayout(False)
-        Me.Pn_4.ResumeLayout(False)
-        Me.Panel8.ResumeLayout(False)
-        Me.Pn_5.ResumeLayout(False)
-        Me.Panel10.ResumeLayout(False)
-        Me.Pn_6.ResumeLayout(False)
-        Me.Panel12.ResumeLayout(False)
-        Me.Pn_7.ResumeLayout(False)
-        Me.Panel14.ResumeLayout(False)
-        Me.Pn_8.ResumeLayout(False)
-        Me.Panel16.ResumeLayout(False)
-        Me.Pn_9.ResumeLayout(False)
-        Me.Panel18.ResumeLayout(False)
         Me.Pn_10.ResumeLayout(False)
-        Me.Panel20.ResumeLayout(False)
-        CType(Me.Pc_calz, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Pc_ch, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Pc_gre, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Pc_new, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Pc_kebab, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Pc_sic, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Pc_cali, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Pc_tom, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel20.ResumeLayout(False)
+        Me.Pn_9.ResumeLayout(False)
         CType(Me.Pc_piss, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel18.ResumeLayout(False)
+        Me.Pn_8.ResumeLayout(False)
+        CType(Me.Pc_cali, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel16.ResumeLayout(False)
+        Me.Pn_7.ResumeLayout(False)
+        CType(Me.Pc_sic, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel14.ResumeLayout(False)
+        Me.Pn_6.ResumeLayout(False)
+        CType(Me.Pc_kebab, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel12.ResumeLayout(False)
+        Me.Pn_5.ResumeLayout(False)
+        CType(Me.Pc_new, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel10.ResumeLayout(False)
+        Me.Pn_4.ResumeLayout(False)
+        CType(Me.Pc_gre, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel8.ResumeLayout(False)
+        Me.Pn_3.ResumeLayout(False)
+        CType(Me.Pc_ch, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel6.ResumeLayout(False)
+        Me.Pn_2.ResumeLayout(False)
+        CType(Me.Pc_calz, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel4.ResumeLayout(False)
+        Me.Pn_1.ResumeLayout(False)
+        CType(Me.Pc_nea, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
-        Me.Panel3.ResumeLayout(False)
         CType(Me.Pc_selected, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel3.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

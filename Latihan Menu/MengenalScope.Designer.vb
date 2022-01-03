@@ -173,6 +173,7 @@ Partial Class MengenalScope
         Me.Controls.Add(Me.Btn_pub)
         Me.Controls.Add(Me.Btn_local)
         Me.Name = "MengenalScope"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MengenalScope"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

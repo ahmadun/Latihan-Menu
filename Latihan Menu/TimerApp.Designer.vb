@@ -27,7 +27,10 @@ Partial Class TimerApp
         Me.Lb_time = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Btn_start = New System.Windows.Forms.Button()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Timer
@@ -63,16 +66,39 @@ Partial Class TimerApp
         Me.Btn_start.Text = "START"
         Me.Btn_start.UseVisualStyleBackColor = True
         '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Panel2.Controls.Add(Me.Label1)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(592, 39)
+        Me.Panel2.TabIndex = 3
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(12, 13)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(33, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Timer"
+        '
         'TimerApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(592, 218)
+        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Btn_start)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "TimerApp"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "TimerApp"
         Me.Panel1.ResumeLayout(False)
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -81,4 +107,6 @@ Partial Class TimerApp
     Friend WithEvents Lb_time As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Btn_start As Button
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label1 As Label
 End Class

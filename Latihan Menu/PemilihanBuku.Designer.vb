@@ -94,6 +94,7 @@ Partial Class PemilihanBuku
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "PemilihanBuku"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "PemilihanBuku"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

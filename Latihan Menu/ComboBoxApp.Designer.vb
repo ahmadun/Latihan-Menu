@@ -78,12 +78,13 @@ Partial Class ComboBoxApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(383, 450)
+        Me.ClientSize = New System.Drawing.Size(383, 237)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Txt_selected)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "ComboBoxApp"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ComboBox"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

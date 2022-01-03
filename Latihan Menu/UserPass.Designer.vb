@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class MenampilkanGambar
+Partial Class UserPass
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,14 +22,27 @@ Partial Class MenampilkanGambar
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.Txt_user = New System.Windows.Forms.TextBox()
+        Me.Txt_pass = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Txt_box = New System.Windows.Forms.TextBox()
-        Me.Btn_load = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Btn_login = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'Txt_user
+        '
+        Me.Txt_user.Location = New System.Drawing.Point(15, 63)
+        Me.Txt_user.Name = "Txt_user"
+        Me.Txt_user.Size = New System.Drawing.Size(209, 20)
+        Me.Txt_user.TabIndex = 0
+        '
+        'Txt_pass
+        '
+        Me.Txt_pass.Location = New System.Drawing.Point(15, 89)
+        Me.Txt_pass.Name = "Txt_pass"
+        Me.Txt_pass.Size = New System.Drawing.Size(209, 20)
+        Me.Txt_pass.TabIndex = 1
         '
         'Panel1
         '
@@ -38,67 +51,49 @@ Partial Class MenampilkanGambar
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(541, 39)
-        Me.Panel1.TabIndex = 4
+        Me.Panel1.Size = New System.Drawing.Size(249, 39)
+        Me.Panel1.TabIndex = 5
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(12, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(110, 13)
+        Me.Label1.Size = New System.Drawing.Size(131, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Menampilkan Gambar"
+        Me.Label1.Text = "Usernamae dan Password"
         '
-        'Txt_box
+        'Btn_login
         '
-        Me.Txt_box.Location = New System.Drawing.Point(15, 55)
-        Me.Txt_box.Name = "Txt_box"
-        Me.Txt_box.Size = New System.Drawing.Size(414, 20)
-        Me.Txt_box.TabIndex = 5
+        Me.Btn_login.Location = New System.Drawing.Point(149, 115)
+        Me.Btn_login.Name = "Btn_login"
+        Me.Btn_login.Size = New System.Drawing.Size(75, 23)
+        Me.Btn_login.TabIndex = 6
+        Me.Btn_login.Text = "Login"
+        Me.Btn_login.UseVisualStyleBackColor = True
         '
-        'Btn_load
-        '
-        Me.Btn_load.Location = New System.Drawing.Point(435, 55)
-        Me.Btn_load.Name = "Btn_load"
-        Me.Btn_load.Size = New System.Drawing.Size(75, 23)
-        Me.Btn_load.TabIndex = 6
-        Me.Btn_load.Text = "Load Pitcure"
-        Me.Btn_load.UseVisualStyleBackColor = True
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(15, 90)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(495, 322)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 7
-        Me.PictureBox1.TabStop = False
-        '
-        'MenampilkanGambar
+        'UserPass
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(541, 428)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Btn_load)
-        Me.Controls.Add(Me.Txt_box)
+        Me.ClientSize = New System.Drawing.Size(249, 166)
+        Me.Controls.Add(Me.Btn_login)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "MenampilkanGambar"
+        Me.Controls.Add(Me.Txt_pass)
+        Me.Controls.Add(Me.Txt_user)
+        Me.Name = "UserPass"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "MenampilkanGamber"
+        Me.Text = "UserPass"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
+    Friend WithEvents Txt_user As TextBox
+    Friend WithEvents Txt_pass As TextBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
-    Friend WithEvents Txt_box As TextBox
-    Friend WithEvents Btn_load As Button
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Btn_login As Button
 End Class

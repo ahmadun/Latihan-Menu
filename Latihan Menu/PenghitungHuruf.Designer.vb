@@ -80,12 +80,13 @@ Partial Class PenghitungHuruf
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 254)
+        Me.ClientSize = New System.Drawing.Size(800, 173)
         Me.Controls.Add(Me.Lb_count_huruf)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Txt_box)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "PenghitungHuruf"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "PenghitungHuruf"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

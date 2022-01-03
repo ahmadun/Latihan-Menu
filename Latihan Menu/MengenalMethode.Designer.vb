@@ -97,6 +97,7 @@ Partial Class MengenalMethode
         Me.Controls.Add(Me.Txt_bil2)
         Me.Controls.Add(Me.Txt_bil1)
         Me.Name = "MengenalMethode"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MengenalMethode"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

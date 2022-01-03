@@ -85,6 +85,30 @@
     <Compile Include="ComboBoxApp.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DoLooping.Designer.vb">
+      <DependentUpon>DoLooping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DoLooping.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForNextLoop.Designer.vb">
+      <DependentUpon>ForNextLoop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForNextLoop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HitungDeposito.Designer.vb">
+      <DependentUpon>HitungDeposito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HitungDeposito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KenalEnum.Designer.vb">
+      <DependentUpon>KenalEnum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KenalEnum.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +175,12 @@
     <Compile Include="Penjumlahan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="RumusLuasPSG.Designer.vb">
+      <DependentUpon>RumusLuasPSG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RumusLuasPSG.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SimpanTeks.Designer.vb">
       <DependentUpon>SimpanTeks.vb</DependentUpon>
     </Compile>
@@ -163,6 +193,12 @@
     <Compile Include="TimerApp.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UserPass.Designer.vb">
+      <DependentUpon>UserPass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserPass.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="About.resx">
@@ -170,6 +206,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ComboBoxApp.resx">
       <DependentUpon>ComboBoxApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoLooping.resx">
+      <DependentUpon>DoLooping.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForNextLoop.resx">
+      <DependentUpon>ForNextLoop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HitungDeposito.resx">
+      <DependentUpon>HitungDeposito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KenalEnum.resx">
+      <DependentUpon>KenalEnum.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
@@ -201,11 +249,17 @@
     <EmbeddedResource Include="Penjumlahan.resx">
       <DependentUpon>Penjumlahan.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RumusLuasPSG.resx">
+      <DependentUpon>RumusLuasPSG.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SimpanTeks.resx">
       <DependentUpon>SimpanTeks.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TimerApp.resx">
       <DependentUpon>TimerApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPass.resx">
+      <DependentUpon>UserPass.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

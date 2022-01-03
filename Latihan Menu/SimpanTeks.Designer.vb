@@ -84,6 +84,7 @@ Partial Class SimpanTeks
         Me.Controls.Add(Me.Txt_teksin)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "SimpanTeks"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "SimpanTeks"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

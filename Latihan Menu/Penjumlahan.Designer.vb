@@ -413,7 +413,7 @@ Partial Class PenjumlahanCls
         Me.Txt_bil1.Size = New System.Drawing.Size(215, 38)
         Me.Txt_bil1.TabIndex = 2
         '
-        'Penjumlahan
+        'PenjumlahanCls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -421,7 +421,8 @@ Partial Class PenjumlahanCls
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "Penjumlahan"
+        Me.Name = "PenjumlahanCls"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Penjumlahan"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
